@@ -7,28 +7,41 @@
             font-family: Arial, sans-serif;
             background-color: #f5f0e6;
             color: #3d2b1f;
+            margin: 0;
+            padding: 0;
             text-align: center;
-            padding: 50px;
+        }
+        header {
+            background: url('header.jpg') center/cover no-repeat;
+            height: 420px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
         }
         h1 {
-            color: #8b5a2b;
-            font-size: 42px;
+            font-size: 52px;
+            margin: 0;
         }
-        p {
-            font-size: 20px;
-            max-width: 600px;
-            margin: 20px auto;
+        .content {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Augenblick & Plunderteilchen</h1>
+    <header>
+        <h1>Augenblick & Plunderteilchen</h1>
+    </header>
     
-    <p>Manchmal braucht es nur einen kleinen Augenblick – mit einer Tasse Kaffee, einem Plunderteilchen und dem Gefühl, dass das Leben gerade ein bisschen innehält.</p>
-    
-    <p>Hier entsteht ein Raum für genau solche Momente.</p>
-    
-    <p><strong>Bald mehr.</strong></p>
+    <div class="content">
+        <p>Manchmal braucht es nur einen kleinen Augenblick – mit einer Tasse Kaffee, einem Plunderteilchen und dem Gefühl, dass das Leben gerade ein bisschen innehält.</p>
+        
+        <p>Hier entsteht ein Raum für genau solche Momente.</p>
+        
+        <p><strong>Bald mehr.</strong></p>
+    </div>
 </body>
 </html>
-
