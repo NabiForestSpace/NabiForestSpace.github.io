@@ -11,19 +11,14 @@
             padding: 0;
             text-align: center;
         }
-        header {
-            background: url('header.jpg') center/contain no-repeat;
-            height: 450px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
-            background-color: #e8d9c0;
+        img.header {
+            width: 100%;
+            max-height: 420px;
+            object-fit: contain;
         }
         h1 {
-            font-size: 48px;
-            margin: 0;
+            font-size: 42px;
+            margin: 20px 0;
         }
         .content {
             max-width: 700px;
@@ -33,9 +28,9 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Augenblick & Plunderteilchen</h1>
-    </header>
+    <img src="header.jpg" class="header" alt="Augenblick & Plunderteilchen">
+    
+    <h1>Augenblick & Plunderteilchen</h1>
     
     <div class="content">
         <p>Manchmal braucht es nur einen kleinen Augenblick – mit einer Tasse Kaffee, einem Plunderteilchen und dem Gefühl, dass das Leben gerade ein bisschen innehält.</p>
