@@ -44,6 +44,19 @@
         .ruhe {
             background-color: #d4e4d4;
         }
+        button {
+            background-color: #6b8e6b;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #5a7a5a;
+        }
     </style>
 </head>
 <body>
@@ -66,11 +79,19 @@
             <p>Setz dich bequem hin, atme dreimal langsam ein und aus.</p>
             <p>Spüre deine Füße auf dem Boden. Spüre, wie dein Atem kommt und geht.</p>
             <p>Du bist genau richtig, so wie du bist. Hier darfst du einfach sein.</p>
+            <button onclick="document.getElementById('ruhe').scrollIntoView({ behavior: 'smooth' })">Zum Ruhe-Raum</button>
         </div>
     </div>
 
     <div class="content">
         <p><strong>Bald mehr.</strong> Du bist herzlich willkommen.</p>
+    </div>
+
+    <div id="ruhe" class="ruhe" style="margin-top: 50px; padding: 40px;">
+        <h2>Ein kleiner Ruhe-Moment</h2>
+        <p>Setz dich bequem hin, atme dreimal langsam ein und aus.</p>
+        <p>Spüre deine Füße auf dem Boden. Spüre, wie dein Atem kommt und geht.</p>
+        <p>Du bist genau richtig, so wie du bist. Hier darfst du einfach sein.</p>
     </div>
 </body>
 </html>
