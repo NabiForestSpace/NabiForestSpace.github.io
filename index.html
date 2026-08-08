@@ -3,69 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InfinitySpace – NabiForestSpace</title>
+    <title>InfinitySpace</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #B0E0E6;
-            color: #2c3e2d;
+            background-color: #f5f0e6;
+            color: #3d2b1f;
             margin: 0;
-            padding: 40px 20px;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 42px;
+            margin: 40px 0 10px;
+        }
+        .intro {
+            max-width: 700px;
+            margin: 0 auto 40px;
+            padding: 0 20px;
+            font-size: 18px;
             line-height: 1.6;
         }
         .container {
-            max-width: 750px;
-            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            max-width: 1000px;
+            margin: 0 auto 50px;
+            padding: 0 20px;
         }
         .box {
-            background-color: #ffffff;
+            background-color: #e8d9c0;
+            padding: 28px 24px;
             border-radius: 16px;
-            padding: 40px 35px;
-            margin-bottom: 40px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+            flex: 1;
+            min-width: 260px;
+            max-width: 320px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
         }
-        h1 {
-            font-size: 36px;
-            margin-bottom: 25px;
-            color: #1a3c34;
-            text-align: center;
+        .box h2 {
+            font-size: 22px;
+            margin-top: 0;
+            margin-bottom: 14px;
         }
-        h2 {
-            font-size: 26px;
-            margin-bottom: 20px;
-            color: #1a3c34;
-            text-align: center;
+        .box p {
+            font-size: 16px;
+            line-height: 1.55;
+            margin: 0;
         }
-        p {
-            font-size: 19px;
-            margin-bottom: 16px;
-            text-align: center;
+        .weisheit {
+            background-color: #d4e4d4;
         }
     </style>
 </head>
 <body>
+
+    <h1>InfinitySpace</h1>
+
+    <div class="intro">
+        <p>Ein offener Raum für Wachstum, Klarheit und neue Wege.<br>
+        Hier darf alles in deinem Tempo entstehen.</p>
+    </div>
+
     <div class="container">
 
         <div class="box">
-            <h1>Willkommen im InfinitySpace</h1>
-            <p>Hier ist Raum zum Wachsen.</p>
-            <p>Raum für neue Gedanken, für Mut und für die nächsten Schritte.</p>
-            <p>Nimm dir einen Moment.<br>
-            Atme durch.<br>
-            Du darfst hier ankommen – genau so, wie du gerade bist.</p>
+            <h2>Willkommen im InfinitySpace</h2>
+            <p>Ein Ort, an dem du ankommen darfst – genau so, wie du bist. Ohne Druck, ohne Erwartungen.</p>
         </div>
 
         <div class="box">
             <h2>Raum des Wachstums</h2>
-            <p>Hier darfst du wachsen – in deinem Tempo.</p>
-            <p>Jeder kleine Schritt zählt.<br>
-            Jeder neue Gedanke ist ein Anfang.<br>
-            Du musst nicht fertig sein, um weiterzugehen.</p>
+            <p>Hier ist Platz für deine Entwicklung, deine Ideen und die kleinen Schritte, die dich weiterbringen.</p>
         </div>
-        
-              
 
+        <div class="box weisheit">
+            <h2>Glitzer-Weisheit</h2>
+            <p>„Manchmal ist der mutigste Schritt nicht der große Sprung, sondern das ruhige, klare Weitermachen – genau dort, wo du gerade stehst.“</p>
+        </div>
 
-            </div>
+    </div>
+
 </body>
 </html>
